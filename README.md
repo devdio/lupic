@@ -22,12 +22,7 @@ You must **install the driver first** so that your PC can recognize the dongle.
 
 1. Run the installer included in this repository.
 
-   ```
-   CDM21228_Setup.exe
-   ```
-
-   > File location: it is inside this project folder.
-   > (e.g. `C:\wk-app\lupic-github\lupic\CDM21228_Setup.exe`)
+  [DOWNLOAD Dongle Driver](https://github.com/devdio/lupic/raw/main/CDM21228_Setup.exe)
 
 2. When the wizard appears, proceed in order: **Extract → Next → Accept the agreement → Finish**.
 3. After installation, plug the USB dongle into your PC.
