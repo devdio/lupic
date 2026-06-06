@@ -87,6 +87,14 @@ Kamibot은 USB 동글(무선 통신 장치)로 PC와 연결됩니다.
 
 ---
 
+## API Key
+```
+import os
+os.environ["OPENAI_API_KEY"] = "sk-..."
+
+print(os.environ.get("OPENAI_API_KEY"))
+```
+
 ## 준비물 요약
 
 - Kamibot(카미봇) 로봇 본체와 USB 동글
