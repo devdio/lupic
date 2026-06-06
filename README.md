@@ -86,6 +86,14 @@ Proceed in the order below. Each notebook contains the library installation step
 - A Windows / macOS / Linux PC
 - An LLM API key (used in practicals 02 ~ 05)
 
+## API Key
+```
+import os
+os.environ["OPENAI_API_KEY"] = "sk-..."
+
+print(os.environ.get("OPENAI_API_KEY"))
+```
+
 ## Reference links
 
 - JupyterLab Desktop download: https://github.com/jupyterlab/jupyterlab-desktop/releases
